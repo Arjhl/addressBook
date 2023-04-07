@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Address Book Manager</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Address Book</h1>
+    <form class="contact_form">
+      <div>
+        <label for="contact-name">Name:</label>
+        <input
+          type="text"
+          name="contact-name"
+          class="contact_name"
+          placeholder="Enter contact Name"
+        />
+      </div>
+      <div>
+        <label for="contact-name">Mobile:</label>
+        <input
+          type="number"
+          name="contact-name"
+          class="contact_mobile"
+          placeholder="Enter mobile number"
+        />
+      </div>
+      <input type="submit" value="Submit" class="btn" />
+    </form>
+    <div class="list">
+      <div class="contact_head">
+        <h1>Contact-Lists</h1>
+        <input name="filter" class="filter" placeholder="Search" />
+      </div>
+      <ul class="contact_list">
+        <!-- <div>
+          <p>Arjun</p>
+          <p>+91 9448067129</p>
+        </div> -->
+      </ul>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>

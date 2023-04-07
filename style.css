@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #fffbeb;
+}
+h1 {
+  text-align: center;
+  padding: 2vh 0;
+  font-size: 3em;
+  color: #495579;
+}
+label {
+  color: #495579;
+  font-size: 1.5em;
+  padding: 10px;
+}
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact_form div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  border: none;
+  background-color: #263159;
+  color: #fffbeb;
+  min-height: 2vh;
+  padding: 10px;
+  margin: 2vh 1vh;
+  border-radius: 5px;
+  font-size: 1.5em;
+}
+.btn {
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.5s ease-in-out;
+  border: 1px solid #fffbeb;
+}
+.btn:hover {
+  border-color: grey;
+  background-color: #251749;
+}
+.list {
+  margin: 10vh auto;
+  width: 80%;
+}
+.contact_head {
+  display: flex;
+  justify-content: space-between;
+}
+.contact_list {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact_list div {
+  background-color: #495579;
+  margin: 1vh 0;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact_list div p {
+  font-size: 2em;
+  margin: 0.5vh 0;
+  font-weight: 600;
+  text-align: center;
+}
+.contact_list div button {
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.5s ease-in-out;
+  border: 1px solid #fffbeb;
+  border: none;
+  background-color: #263159;
+  color: #fffbeb;
+  min-height: 2vh;
+  padding: 10px;
+  margin: 1vh 0;
+  border-radius: 5px;
+  font-size: 1.5em;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
