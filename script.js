@@ -90,7 +90,7 @@ document.querySelector(".contact_form").addEventListener("submit", (e) => {
   e.preventDefault();
   let flag = 0;
 
-  if (contactMobile.value.trim() === "" || contactName.value.trim() === "") {
+  if (contactMobile.value === "" || contactName.value === "") {
     flag = 1;
   }
   if (isNaN(contactMobile.value)) {

@@ -52,8 +52,11 @@ input {
   background-color: #251749;
 }
 .list {
-  margin: 10vh auto;
+  margin: 5vh auto;
   width: 80%;
+  border: 2px solid #495579;
+  padding: 10px;
+  border-radius: 5px;
 }
 .contact_head {
   display: flex;
@@ -102,4 +105,27 @@ input::-webkit-inner-spin-button {
 
 input[type="number"] {
   -moz-appearance: textfield;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2em;
+  }
+  label,
+  input {
+    font-size: 1.5em;
+  }
+  .contact_head {
+    flex-direction: column;
+  }
+  .contact_list div {
+    flex-direction: column;
+    align-items: normal;
+  }
+  .contact_list div p {
+    font-size: 1.2em;
+  }
+  .contact_list div button {
+    font-size: 1.2em;
+  }
 }
