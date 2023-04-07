@@ -120,6 +120,9 @@ document.querySelector(".contact_form").addEventListener("submit", (e) => {
     Address.push(arr);
     displayContacts(Address);
   }
+
+  contactMobile.value = "";
+  contactName.value = "";
 });
 
 document.querySelector(".filter").addEventListener("change", (e) => {
